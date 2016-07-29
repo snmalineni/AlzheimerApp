@@ -28,4 +28,9 @@ public class Homepage extends AppCompatActivity {
         Intent intent = new Intent(this, Tutorial.class);
         startActivity(intent);
     } //when Tutorial button pressed, go to Tutorial page
+
+    public void goUpload(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    } //when Tutorial button pressed, go to Tutorial page (TEMPORARY)
 }
