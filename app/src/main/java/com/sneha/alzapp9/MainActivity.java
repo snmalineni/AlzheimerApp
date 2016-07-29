@@ -37,10 +37,6 @@ public class MainActivity extends AppCompatActivity{
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
 
-
-
-
-
         }
 
 
@@ -53,9 +49,6 @@ public class MainActivity extends AppCompatActivity{
         String photoStr = uri.toString();
         photoAr[arIndex] = new cappedPhoto(photoStr, inputText);
         //Creates an instance of cappedPhoto in the array
-        System.out.println(photoAr[arIndex].getCap());
-        System.out.println(photoAr[arIndex].getUriString());
-        //DELETE BEFORE BIG PRESENTATION!!!!!!!
         arIndex++;
 
     }
@@ -98,7 +91,6 @@ public class MainActivity extends AppCompatActivity{
 
         }
     }
-
 
 
 }
