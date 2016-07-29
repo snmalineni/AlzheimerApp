@@ -55,11 +55,10 @@
         android:layout_height="wrap_content"
         android:text="App Tutorial"
         android:id="@+id/button3"
-        android:layout_below="@+id/button2"
-        android:layout_alignParentStart="true"
         android:textSize="20sp"
-        android:layout_marginTop="10dp"
-        android:onClick="goTutorial" />
+        android:onClick="goTutorial"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true" />
 
     <TabHost
         android:layout_width="match_parent"
@@ -99,9 +98,9 @@
             </FrameLayout>
 
             <TabWidget
-                android:id="@android:id/tabs"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"></TabWidget>
+                android:layout_height="wrap_content"
+                android:id="@+id/tabs"></TabWidget>
 
         </LinearLayout>
     </TabHost>
